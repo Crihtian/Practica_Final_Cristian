@@ -22,3 +22,6 @@ Este proyecto proporciona una herramienta para monitorear en tiempo real el uso 
    ```bash
    pip install psutil
 
+### Enlace a GitHub
+
+   https://github.com/Crihtian/Practica_Final_Cristian.git
