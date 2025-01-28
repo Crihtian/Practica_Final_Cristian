@@ -1,14 +1,24 @@
 # Practica_Final_Cristian
-# Monitorización de Recursos del Sistema
+## Monitorización de Recursos del Sistema en Python
 
-Este proyecto proporciona dos scripts para monitorizar el uso de recursos del sistema (CPU, RAM y Disco) utilizando la biblioteca `psutil`. Uno de los scripts muestra la información en una interfaz gráfica utilizando `tkinter`, mientras que el otro muestra la información en la consola.
+Este proyecto proporciona una herramienta para monitorear en tiempo real el uso de la CPU, la memoria RAM y el disco en tu sistema. Está diseñado para ejecutarse en un entorno Python y puede ser extendido para integrarse con herramientas de visualización como **Grafana** y **Prometheus** para crear paneles gráficos y obtener métricas en tiempo real.
 
 ## Requisitos
 
 - Python 3.x
-- Bibliotecas `psutil` y `tkinter`
+- Paquete `psutil` para monitoreo de recursos del sistema
+- (Opcional) **Prometheus** y **Grafana** para visualización avanzada de métricas
 
-Puedes instalar `psutil` utilizando pip:
+## Instalación
 
-```sh
-pip install psutil
+1. **Clonar o descargar el proyecto:**
+   
+   Puedes clonar este repositorio o descargar el archivo `.py` del proyecto a tu máquina.
+
+2. **Instalar las dependencias necesarias:**
+
+   El proyecto depende del paquete `psutil`, que puedes instalar usando `pip`:
+
+   ```bash
+   pip install psutil
+
